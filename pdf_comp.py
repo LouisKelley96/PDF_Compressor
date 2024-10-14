@@ -20,7 +20,7 @@ def compress_pdf(input_file_path, output_file_path, power=3):
 # input_dir = current directory
 input_dir = '.'
 
-# Ensure output directory exists,
+# Ensure output directory exists
 output_dir = os.path.join(input_dir, 'pdf_compressed')
 os.makedirs(output_dir, exist_ok=True)
 
